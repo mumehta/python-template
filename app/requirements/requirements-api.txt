@@ -1,0 +1,8 @@
+# API related requirements
+flask
+connexion
+gunicorn
+Flask-Script
+celery
+Flask-Restful
+invoke >= 0.12.2, < 0.13

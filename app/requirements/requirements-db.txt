@@ -1,0 +1,7 @@
+# DB related requirements
+flask-dynamo
+pynamodb
+psycopg2
+redis-py
+Flask-SQLAlchemy
+Flask-Migrate

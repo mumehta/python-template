@@ -1,0 +1,5 @@
+# Cloud related requirements
+boto
+boto3
+amazon_kclpy
+awscli

@@ -1,0 +1,2 @@
+-r requirements/requirements-api.txt
+-r requirements/requirements-cloud.txt

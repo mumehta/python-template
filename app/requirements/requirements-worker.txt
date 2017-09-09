@@ -1,0 +1,2 @@
+# Worker related requirements
+Celery

@@ -1,0 +1,16 @@
+<html>
+  <head>
+    {% if title %}
+    <title>Displays list of s3 files at isentia-testing-sqs-bucket - {{ title }} </title>
+    {% else %}
+    <title>S3 file list</title>
+    {% endif %}
+  </head>
+  <body>
+    <h1>Files at isentia-testing-sqs-bucket </h1>
+    <hr>
+    {% for file in files %}
+    <div><p>{{ file }} </p></div>
+    {% endfor %}
+  </body>
+</html>

@@ -1,0 +1,13 @@
+-r requirements.txt
+
+# Dev related requirements
+coverage
+coveralls
+pytest
+pytest-flask
+pytest-cov
+pep8
+pyflakes
+nose
+sure
+mock
